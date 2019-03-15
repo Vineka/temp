@@ -1,0 +1,43 @@
+<html> 
+<head> 
+<title>Profile Page</title>
+</head>
+<body>
+<h1 align="center"><u> Profile</u></h1>
+<form action="" metdod="get">
+<ol>
+<li>	<pre><label><strong>Name</strong>		: </label>  <input type="text" name="username"><br></pre></li>
+
+<li>	<pre><label>Gender		: </label>  <input type="radio" name="gender" value="male">Male	<input type="radio" name="gender" value="female"> Female<br></pre></li>
+
+<li>	<pre><label>D.O.B		:</label>   <input type="date" name="dob" max="1979-12-31"><br></pre></li>
+
+<li>	<pre><label>Mobile No.	:</label>   <input type="tel" pattern="[0-9]{10}" name="no" placeholder="10 digits only"><br></pre></li>
+
+<li>	<pre><label>Email Id	:</label>   <input placeholder="valid email" type="email" name="email"><br></pre></li>
+<li>	<pre><label>Address</label>
+ <fieldset> 
+  Street :	<input type="text" name ="street"><br>
+  Area   :      <input type="text" name ="area" ><br>
+  City   :      <input type="text"name ="city"><br>
+  Pincode:	<input type="text" name="pincode" pattern="[0-9]{6}" placeholder="only 6 digit number"><br>
+  State: 	<select name="state">
+  <option value="select">select</option>
+  <option value="tn">Tamil Nadu</option>
+  <option value="kl">Kerala</option>
+  <option value="ka">Karnataka</option>
+  <option value="gu">Goa</option>
+  <option value="ap">Andhra Pradesh</option>
+</select>
+</pre>
+ </fieldset>
+</li>
+<li>	<pre><label>Qualification	:   </label><input type="checkbox" name="qualification" value="UG"> UG <input type="checkbox" name="qualification" value="PG"> PG <input type="checkbox" name="qualification" value="Others"> Others <br></li>
+</pre></li>
+</ol>
+<br>
+<br>
+<pre>   <input type="reset" value="Clear">			<input type="submit" value="Submit"></pre>
+</form>
+</body>
+</html>

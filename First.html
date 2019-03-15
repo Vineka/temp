@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HTML5 Inputs</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <table border="1" align="center">
+            <tr>
+                <th>S.No</th>
+                <th>Content</th>
+                <th>Type of Input</th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td>First Name : </td>
+                <td><input type="text" name="fname" placeholder="Enter First Name" autocomplete="on"></td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td>Last Name :</td>
+                <td><input type="text" name="lname" placeholder="Enter Last Name" required></td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td>Password : </td>
+                <td><input type="password" name="pw" placeholder="Enter Password" required></td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td>Gender :</td>
+                <td><input type="radio" name="gender" value="M" required> Male <input type="radio" name="gender" value="F" required>                    Female</td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td>Education : </td>
+                <td><input type="checkbox" name="Education" value="UG" required> UG <input type="checkbox" name="Education" value="PG"
+                        required> PG <input type="checkbox" name="Education" value="Others"> Others </td>
+            </tr>
+            <tr>
+                <td align="center">6</td>
+                <td>D.O.B</td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td align="center">7</td>
+                <td>Email :</td>
+                <td><input type="email" name="email" placeholder="Enter Email Id" required></td>
+            </tr>
+            <tr>
+                <td align="center">8</td>
+                <td>Mobile :</td>
+                <td><input type="tel" name="phone" placeholder="Enter Mobile Number" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td align="center">9</td>
+                <td>Attach Your Resume</td>
+                <td><input type="file" name="resume" value="Choose File" required></td>
+            </tr>
+            <tr>
+                <td align="center">10</td>
+                <td>LinkedIn Id :</td>
+                <td><input type="url" name="linkedin" required></td>
+            </tr>
+            <tr>
+                <td align="center">11</td>
+                <td>Salary</td>
+                <td><input type="range" name="salary" min="5000" max="10000" step="100" required></td>
+            </tr>
+            <tr>
+                <td align="center">12</td>
+                <td>Total Years of Experience</td>
+                <td><input type="number" name="exp" required min="0" max="10"></td>
+            </tr>
+
+            <tr>
+              <canvas>  <td align="center">13</td></canvas>
+                <td>Favourite Color</td>
+                <td><input type="color" name="favcolor" value="#000000"></td>
+            </tr>
+            <tr>
+                <td align="center">14</td>
+                <td>State</td>
+                <td> <select>
+                    <option value="select">Select</option>
+                    <option value="TamilNadu">TamilNadu </option>
+                     <option value="Punjab">Punjab </option>
+                      <option value="Delhi">Delhi </option>
+                       <option value="UP">UP </option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" onclick="alert('Your Form is Submitted!!!')" value="Submit">
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+
+</html>
